@@ -14,92 +14,89 @@ body, html {
   width: 100%;
   top: 0;
   z-index: 99; }
-
-#small-intro #logo .profile-name-pic {
-  height: 10vh; }
+  #small-intro #logo .profile-name-pic {
+    height: 10vh; }
 
 #intro {
   background-color: #292929;
   color: #0395DE; }
-
-#intro #logo .profile-pic {
-  height: 20vw;
-  width: 20vw;
-  border-radius: 50%; }
+  #intro #logo .profile-pic {
+    height: 20vw;
+    width: 20vw;
+    border-radius: 50%; }
 
 #nav-menu {
   list-style-type: none; }
-
-#nav-menu li {
-  font-weight: 700;
-  display: inline;
-  margin-right: 20px; }
-
-#nav-menu li:hover:nth-child(odd) {
-  padding-bottom: 5px;
-  border-bottom: 2px solid white; }
-
-#nav-menu a {
-  color: inherit;
-  text-decoration: inherit; }
+  #nav-menu li {
+    font-weight: 700;
+    display: inline;
+    margin-right: 20px; }
+    #nav-menu li:hover:nth-child(odd) {
+      padding-bottom: 5px;
+      border-bottom: 2px solid white; }
+  #nav-menu a {
+    color: inherit;
+    text-decoration: inherit; }
 
 #about {
   background-color: #0395DE; }
-
-#about .about-section-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
+  #about .about-section-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
 
 #work {
   background-color: #292929; }
-
-#work .single-work-div {
-  height: 100vh;
-  transform-origin: 50% 65%;
-  transition: transform 10s, filter 1.5s ease-in-out;
-  filter: brightness(120%); }
-
-#work .single-work-div:hover {
-  filter: brightness(100%);
-  transform: scale(1.1); }
-
-#work .gracie-barra {
-  background-image: url("../images/gb.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-#work .email-dispatch {
-  background-image: url("../images/email_dispatch_narrow.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  #work .single-work-div {
+    height: 100vh;
+    transform-origin: 50% 65%;
+    transition: transform 10s, filter 1.5s ease-in-out;
+    filter: brightness(120%); }
+    #work .single-work-div:hover {
+      filter: brightness(100%);
+      transform: scale(1.1); }
+  #work .gracie-barra {
+    background-image: url("../images/gb.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  #work .paddlewheeler-pub {
+    background-image: url("../images/paddlewheeler-pub.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  #work .nuufig {
+    background-image: url("../images/nuufig.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  #work .email-dispatch {
+    background-image: url("../images/email_dispatch_narrow.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
 
 #contact {
   background-color: #0395DE; }
-
-#contact .contact-section-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-
-#contact .social-media i {
-  color: #0395DE;
-  margin-right: 10px; }
+  #contact .contact-section-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  #contact .social-media i {
+    color: #0395DE;
+    margin-right: 10px; }
 
 .section {
   height: 100vh; }
 
 .section-title {
   height: 100vh; }
-
-.section-title img {
-  height: 17vh;
-  margin-left: auto;
-  margin-right: auto; }
+  .section-title img {
+    height: 17vh;
+    margin-left: auto;
+    margin-right: auto; }
 
 .section-content {
   background-color: white;
@@ -111,10 +108,14 @@ body, html {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   .section-title {
     height: 50vh; }
-  .section-title img {
-    margin-left: auto;
-    margin-right: auto; }
+    .section-title img {
+      margin-left: auto;
+      margin-right: auto; }
+
   .section-content {
     height: 50vh; }
+
   #work .single-work-div {
     height: 50vh; } }
+
+/*# sourceMappingURL=styles.css.map */
