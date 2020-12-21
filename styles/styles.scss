@@ -75,7 +75,7 @@ body,html {
     }
 }
 
-#work {
+#projects {
     background-color: $dark-color;
 
     .single-work-div {
@@ -119,8 +119,41 @@ body,html {
     }
 }
 
-#contact {
+#work {
     background-color: $primary-color;
+
+    .contact-section-content {
+        width: 100%;
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+        
+    .div1 { 
+        grid-area: 1 / 1 / 2 / 2; 
+        font-size: larger;
+    }
+    .div2 { 
+        grid-area: 1 / 3 / 2 / 4;
+        text-align: right;
+        font-size: larger;
+    }
+    .div3 { 
+        grid-area: 2 / 1 / 3 / 2; 
+    }
+    .div4 { 
+        grid-area: 2 / 3 / 3 / 4;
+        text-align: right; 
+    }
+}
+
+#contact {
+    background-color: $dark-color;
 
     .contact-section-content {
         position: absolute;

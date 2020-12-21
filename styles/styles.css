@@ -46,39 +46,62 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%); }
 
-#work {
+#projects {
   background-color: #292929; }
-  #work .single-work-div {
+  #projects .single-work-div {
     height: 100vh;
     transform-origin: 50% 65%;
     transition: transform 10s, filter 1.5s ease-in-out;
     filter: brightness(120%); }
-    #work .single-work-div:hover {
+    #projects .single-work-div:hover {
       filter: brightness(100%);
       transform: scale(1.1); }
-  #work .gracie-barra {
+  #projects .gracie-barra {
     background-image: url("../images/gb.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
-  #work .paddlewheeler-pub {
+  #projects .paddlewheeler-pub {
     background-image: url("../images/paddlewheeler-pub.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
-  #work .nuufig {
+  #projects .nuufig {
     background-image: url("../images/nuufig.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
-  #work .email-dispatch {
+  #projects .email-dispatch {
     background-image: url("../images/email_dispatch_narrow.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
 
-#contact {
+#work {
   background-color: #0395DE; }
+  #work .contact-section-content {
+    width: 100%; }
+  #work .parent {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; }
+  #work .div1 {
+    grid-area: 1 / 1 / 2 / 2;
+    font-size: larger; }
+  #work .div2 {
+    grid-area: 1 / 3 / 2 / 4;
+    text-align: right;
+    font-size: larger; }
+  #work .div3 {
+    grid-area: 2 / 1 / 3 / 2; }
+  #work .div4 {
+    grid-area: 2 / 3 / 3 / 4;
+    text-align: right; }
+
+#contact {
+  background-color: #292929; }
   #contact .contact-section-content {
     position: absolute;
     top: 50%;
