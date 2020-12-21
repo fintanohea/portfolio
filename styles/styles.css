@@ -56,6 +56,29 @@ body, html {
     #projects .single-work-div:hover {
       filter: brightness(100%);
       transform: scale(1.1); }
+      #projects .single-work-div:hover .middle {
+        opacity: 1; }
+  #projects .github {
+    background-image: url("../images/github-news-cover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+  #projects .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center; }
+  #projects .text {
+    background-color: #0395DE;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px; }
+    #projects .text .project-title {
+      font-size: 26px; }
   #projects .gracie-barra {
     background-image: url("../images/gb.png");
     background-position: center;
